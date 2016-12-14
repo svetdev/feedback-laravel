@@ -51,7 +51,7 @@
     </div>
     {!! Form::close() !!}
 
-    <button type="button" onclick="window.location='{{ url("thank") }}'">Button</button>
+    <button type="button" onclick="window.location='https://svetliy.herokuapp.com/thank'">Button</button>
 
 @stop
 
