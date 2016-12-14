@@ -21,7 +21,7 @@
 
     {!! Form::open(array('route' => 'thank', 'class' => 'form')) !!}
 
-    <div class="form-group">
+    <div class="form-group" id="name">
         {!! Form::label('Your Name') !!}
         {!! Form::text('name', null,
             array('required',
@@ -29,7 +29,7 @@
                   'placeholder'=>'Your name')) !!}
     </div>
 
-    <div class="form-group">
+    <div class="form-group" id="email">
         {!! Form::label('Your E-mail Address') !!}
         {!! Form::text('email', null,
             array('required',
@@ -37,7 +37,7 @@
                   'placeholder'=>'Your e-mail address')) !!}
     </div>
 
-    <div class="form-group">
+    <div class="form-group" id="message">
         {!! Form::label('Your Message') !!}
         {!! Form::textarea('message', null,
             array('required',
