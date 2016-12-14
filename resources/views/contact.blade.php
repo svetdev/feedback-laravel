@@ -51,6 +51,8 @@
     </div>
     {!! Form::close() !!}
 
+    <button type="button" onclick="window.location='{{ url("thank") }}'">Button</button>
+
 @stop
 
 @section('sidebar-left')
