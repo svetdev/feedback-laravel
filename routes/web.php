@@ -17,5 +17,11 @@ Route::get('/', function () {
 
 Route::get('contact',
     ['as' => 'contact', 'uses' => 'AboutController@create']);
+
 Route::post('contact',
     ['as' => 'contact_store', 'uses' => 'AboutController@store']);
+
+Route::get('thank',
+    ['as' => 'thank', 'uses' => 'AboutController@thank']);
+
+
