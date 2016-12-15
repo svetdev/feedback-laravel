@@ -19,7 +19,7 @@
 
     {!! Form::open(array('route' => 'contact_store', 'class' => 'form')) !!}
 
-    <div class="form-group" id="name">
+    <div class="form-group">
         {!! Form::label('Your Name') !!}
         {!! Form::text('name', null,
             array('required',

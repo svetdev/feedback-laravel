@@ -16,10 +16,10 @@ Route::get('/', function () {
 });
 
 Route::get('contact',
-    ['as' => 'contact', 'uses' => 'AboutController@create']);
+    ['as' => 'contact', 'uses' => 'AboutController@create'], 'https');
 
 Route::post('contact',
-    ['as' => 'contact_store', 'uses' => 'AboutController@store']);
+    ['as' => 'contact_store', 'uses' => 'AboutController@store', 'https']);
 
 Route::get('thank',
     ['as' => 'thank', 'uses' => 'AboutController@thank']);
