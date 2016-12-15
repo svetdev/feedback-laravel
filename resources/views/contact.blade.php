@@ -5,8 +5,6 @@
 @stop
 
 @section('sidebar-up')
-    <h1>Feedback</h1>
-
     @if(Session::has('message'))
         <div class="alert alert-info">
             {{Session::get('message')}}
@@ -51,7 +49,6 @@
     </div>
     {!! Form::close() !!}
 
-    <button type="button" onclick="window.location='https://svetliy.herokuapp.com/thank'">Button</button>
 
 @stop
 

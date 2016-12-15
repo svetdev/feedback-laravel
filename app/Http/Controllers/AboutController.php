@@ -13,15 +13,7 @@ class AboutController extends Controller
 
     public function store()
     {
-        //store message here in database
-
-        //return view('thankyou');
-
-        return \Redirect::route('thank')
-            ->with('message', 'Thanks for your feedback!');
-    }
-
-    public function thank(){
-        return view('thankyou');
+        return \Redirect::route('contact')
+            ->with('message', 'Thanks for contacting us!');
     }
 }
