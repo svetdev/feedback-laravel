@@ -13,7 +13,6 @@
     <link href="{{ secure_asset('css/bootstrap.min.css') }}" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="{{ secure_asset('css/jumbotron-narrow.css') }}" rel="stylesheet">
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
@@ -44,7 +43,5 @@
     </footer>
 
 </div> <!-- /container -->
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="{{ secure_asset('js/ie10-viewport-bug-workaround.js') }}"></script>
 </body>
 </html>
