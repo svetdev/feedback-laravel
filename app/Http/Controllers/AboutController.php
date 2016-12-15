@@ -13,6 +13,8 @@ class AboutController extends Controller
 
     public function store()
     {
+
+
         return \Redirect::route('contact')
             ->with('message', 'Thanks for contacting us!');
     }

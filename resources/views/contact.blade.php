@@ -17,7 +17,7 @@
         @endforeach
     </ul>
 
-    {!! Form::open(array('route' => 'thank', 'class' => 'form')) !!}
+    {!! Form::open(array('route' => 'contact_store', 'class' => 'form')) !!}
 
     <div class="form-group" id="name">
         {!! Form::label('Your Name') !!}
